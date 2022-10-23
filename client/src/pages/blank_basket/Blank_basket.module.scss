@@ -1,0 +1,50 @@
+
+.blank_basket{
+  display: flex;
+}
+.body{
+  display: flex;
+  padding-top: 204px;
+  flex-direction: column;
+  justify-content: center;
+  .body_title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    .title_text{
+      text-align: center;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      letter-spacing: 0.01em;
+    }
+  }
+  .body_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145.4%;
+    //text-align: center;
+    letter-spacing: 0.01em;
+    color: #777777;
+    margin-bottom: 47px;
+  }
+  .body_img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 74px;
+  }
+  .body_button{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    padding: 14px 39px 16px 39px;
+    color: #FFFFFF;
+    background: #282828;
+    border-radius: 30px;
+  }
+}
